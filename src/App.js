@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 
 import Content from './components/Containers';
 import {Container, Image} from 'semantic-ui-react';
-import iconDevx from "./assets/icon-devx.svg"
+import iconDevx from "./assets/icon-devx.svg" 
 
 import './App.css';
 
@@ -23,9 +23,7 @@ function App() {
       <Header/>
       <Content>
         <Container text textAlign='center'>
-          <Image centered size='tiny' src={iconDevx} style={{marginBottom:"2em"}}/>
-          <p>Create React Ethereum DApp on Polygon</p>
-          <p>Build your first app with Starter Kits</p>
+         <p>Hello World</p>
         </Container>
       </Content>
       <Footer/>
